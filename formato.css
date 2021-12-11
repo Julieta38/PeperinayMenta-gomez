@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    --box-sizing: border-box;
+}
+/*--body--------*/
+body{
+    font-family: 'Mulish', sans-serif;
+    text-align: justify;
+    overflow-x: hidden;
+    margin-bottom: 0rem;
+    margin-right: 0rem;
+    font-size: 1rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+/*--section------*/
+.flexbox-contenedor-section{
+/*--2 columas------*/
+    display: flex;
+}
+.video{
+    padding: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 500px;
+    height: 500px;
+}
+
+.Slogan{
+    color: palevioletred;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.titulos{
+    color: palevioletred;
+    font-size: 35px;
+    text-align: center;
+}
+
+.subtitulos{
+    color: palevioletred;
+    font-size: 30px;
+}
+
+.avisos{
+    background-color: rgb(224, 150, 175);
+    font-size: 15px;
+    text-align: center;
+}
+
+/*--footer------*/
+footer{
+    background-color:palevioletred;
+    padding: 30px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    width: 100%;
+    height: 80%;
+    clear: both;
+}
+
+.flex-container-footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: space-between;
+    text-decoration:none;
+    font-size: 1rem;
+    list-style-type:none; 
+    color: rgb(252, 246, 246);
+
+}
+
+/*--responsive------*/
+@media (min-width: 481px){
+  .flexbox-contenedor-section{
+/*--2 columas------*/
+    display: flex;
+    width: 100%;
+}
+footer{
+   
+}
+
+
+}
+/*--tablet------*/
+@media (min-width: 768px){
+
+}
+/*--------*/
+@media (min-width: 1024px){
+
+}
+
+/*---seccion nosotros----*/
+.flexbox-contenedor-section{
+/*--2 columas------*/
+    display: flex;
+    padding: 2%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.flexbox-contenedor-section__imagen{
+    margin-bottom: 10%;
+    margin-top: 0px;
+    margin-right: 1%;
+    width: 80%;
+    height: 100%;
+}
+.texto-justificado{
+    text-align: justify;
+}
+.titulos__nosotros{
+    text-align: left;
+    color: palevioletred;
+}
+
+.despedida-nosotros{
+    font-style: italic
+}
+.despedida-nosotros{
+    color: palevioletred;
+}
+
+/*---responsive nosotros----*/
+@media (min-width: 481px){
+  .flexbox-contenedor-section{
+/*--2 columas------*/
+    display: flex;
+}
+footer{
+    background-color:palevioletred;
+    padding: 30px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    width: 100%;
+    height: 80%;
+    clear: both;
+}
+
+
+}
+/*--tablet------*/
+@media (min-width: 768px){
+
+}
+/*--------*/
+@media (min-width: 1024px){
+
+}
+
+/*---seccion productos----*/
+.titulos-productos{
+    text-align: center;
+    color: palevioletred;
+}
+
+
+/*---seccion pedidos----*/
+.flexbox-contenedor-section{
+/*--2 columas------*/
+    display: flex;
+    padding: 2%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.flexbox-contenedor-section__imagen--pedidos{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: 
+    width: 
+    height:
+}
+
+
+/*---preguntas frecuentes----*/
+
+/*---seccion contacto----*/
+.flexbox-contenedor-section{
+/*--2 columas------*/
+    display: flex;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+.flexbox-contenedor-section__Titulos{
+    color: palevioletred
+}
+.flexbox-contenedor-section__Titulos{
+    font-size: 3rem;
+}
+.flexbox-contenedor-section__Titulos--subtitulo{
+    font-size: 1,5rem;
+    color: palevioletred;
+}
+.imagen{
+    width: 50%;
+    height: 100%;
+    padding: 0%;
+
+}
+/*--responsive contacto------*/
+@media (min-width: 480px){
+    .flexbox-contenedor-section__Titulos{
+       
+    }
+
+}
+
+/*--tablet------*/
+@media (min-width: 768px){
+    .flex-container{
+        grid grid-template-columns: repeat(4, 1fr)
+        }
+    .columna1{
+    grid-row: 1/5fr;
+    grid-columns: 3/5fr;
+}
+    .columna2{
+    grid-row: 1/2fr;
+    grid-columns: 3/5fr;
+}
+}
+/*--------*/
+
+
